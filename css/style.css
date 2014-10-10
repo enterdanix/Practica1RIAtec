@@ -34,7 +34,7 @@ aside {
 	
 }
 
-article,footer {
+article{
 	padding: 0;
 	margin: 0px;
 	background: white;
@@ -45,6 +45,7 @@ article,footer {
 footer {
 	padding-left: 20px ;
 	height: 110px;
+	background: white;
 }
 
 footer  h1 {
@@ -64,7 +65,6 @@ img.float_right {
 img.float_left {
     float: left;
     padding-right: 10px ;
-    transition: transform .25s ease;
     padding-bottom: 5px ;
 }
 
@@ -73,10 +73,9 @@ hr {
     border: 0;
     height: 1px;
     margin: 0px ;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+}
+
+/**End Footer**/
 
 #logo {
 
