@@ -25,16 +25,29 @@ body {
 }
 
 header{
-
+	margin: 0px;
+	padding: 0px;
+	background: white;
 }
 
 aside {
 	
 }
 
-footer {
+article,footer {
+	padding: 0;
+	margin: 0px;
+	background: white;
 	
 }
+
+/** Footer **/
+footer {
+		padding-left: 20px ;
+		height: 110px;
+}
+	
+
 
 #logo {
 
