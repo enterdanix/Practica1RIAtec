@@ -46,6 +46,15 @@ footer {
 	padding-left: 20px ;
 	height: 110px;
 }
+
+footer  h1 {
+	padding: 15px 0px 15px 0px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: normal;
+	color: black;
+	margin-bottom: 0
+}
 	
 img.float_right {
     float: right;
