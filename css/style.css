@@ -12,16 +12,27 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary
 }
 
 head {
-	margin: 0px;
-	padding: 0px;
-	background: white;
+
 }
 
 body {
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1120px;
+/*	width: 1120px; Alto de la paguina*/
 	background: black;
 	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
 }
+
+footer {
+	
+}
+
+#logo {
+
+}
+
+#header{
+
+}
+
