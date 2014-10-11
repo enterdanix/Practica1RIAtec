@@ -115,10 +115,6 @@ aside h2:hover {
 	height: 17px ;
 }
 
-.clear { 
-	clear: left; 
-}
-
 .metro-tile-tweet {
 	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
 	background: url("../images/Twitter-tile.png");
