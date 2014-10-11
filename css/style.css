@@ -19,7 +19,7 @@ body {
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-/*	width: 1120px; Alto de la paguina*/
+	width: 1120px;
 	background: black;
 	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
 }
@@ -30,9 +30,95 @@ header{
 	background: white;
 }
 
-aside {
-	
+
+
+aside{
+  	width: 98%;
+	margin: 0px;
+	padding: 10px;
+	font-size: 16px;
+  	background-color: #BEA7C9;
+  	-webkit-border-radius: 12px;
+  	-moz-border-radius: 12px;
+   	border-radius: 12px;
 }
+
+aside div.left_column{
+	float: left;
+	width: 450px;
+/*	padding-left: 50;
+	padding-right: 0;*/
+	margin-left: 80px;
+	/*border: solid;*/
+}
+
+aside div.right_column{
+	float: right;
+	width: 450px;
+	/*border: solid;*/
+/*	padding-right: 50;
+	padding-left: 0;*/
+	margin-right: 80px;
+}
+
+aside section.left_column {
+	margin:10px 10px; 
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+aside section.right_column {
+	margin:10px 10px; 
+	padding-left: 10px;
+	padding-right: 100px;
+}
+
+div.columnEnd{
+	clear: both;
+}
+
+
+.ul_aside {
+	padding-left: 10px ;
+}
+
+.ul_aside li {
+	margin-left: 10px ;
+	padding-top: 3px ;
+	
+
+}
+.ul_aside a {
+	text-decoration: none ;
+	color: #C48200 ;
+	font-size: 15px ;
+	font-weight: bold; 
+}
+
+aside h2 {
+	padding-left: 10px;
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	background-color: darkslategray;
+}
+
+aside h2:hover {
+	color: darkslategray;
+	background-color: white;
+}
+
+#SourceForge_logo {
+	margin-top: 2px;
+	height: 17px ;
+}
+
+.clear { 
+	clear: left; 
+}
+
 
 article{
 	padding: 0;
