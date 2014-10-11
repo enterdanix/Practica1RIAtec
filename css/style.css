@@ -144,6 +144,27 @@ aside h2:hover {
 	border-color: #4875B4;
 }
 
+.metro-tile {
+	float: left ;
+	width: 104px;
+	height: 104px;
+	width: 82px;
+	height: 82px;
+	padding: 5px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 12px;
+	border-width: 3px;
+	border-style: solid;
+	cursor: default;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+	margin-left:5px; 
+	margin-top: 5px;
+}
+
 
 article{
 	padding: 0;
