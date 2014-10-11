@@ -161,7 +161,7 @@ article{
     margin-left: 10px ;
     margin-right: 10px ;
     background-color: #FFFFFF ;
-    width: calc(100%/3 - 25px );
+   /* width: calc(100%/3 - 25px );*/
 
 }	
 
