@@ -1,0 +1,216 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, 
+code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+head {
+
+}
+
+body {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1120px;
+	background: black;
+	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
+}
+
+header{
+	margin: 0px;
+	padding: 0px;
+	background: white;
+}
+
+
+
+aside{
+  	width: 98%;
+	margin: 0px;
+	padding: 10px;
+	font-size: 16px;
+  	background-color: #BEA7C9;
+  	-webkit-border-radius: 12px;
+  	-moz-border-radius: 12px;
+   	border-radius: 12px;
+}
+
+aside div.left_column{
+	float: left;
+	width: 450px;
+/*	padding-left: 50;
+	padding-right: 0;*/
+	margin-left: 80px;
+	/*border: solid;*/
+}
+
+aside div.right_column{
+	float: right;
+	width: 450px;
+	/*border: solid;*/
+/*	padding-right: 50;
+	padding-left: 0;*/
+	margin-right: 80px;
+}
+
+aside section.left_column {
+	margin:10px 10px; 
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+aside section.right_column {
+	margin:10px 10px; 
+	padding-left: 10px;
+	padding-right: 100px;
+}
+
+div.columnEnd{
+	clear: both;
+}
+
+
+.ul_aside {
+	padding-left: 10px ;
+}
+
+.ul_aside li {
+	margin-left: 10px ;
+	padding-top: 3px ;
+	
+
+}
+.ul_aside a {
+	text-decoration: none ;
+	color: #C48200 ;
+	font-size: 15px ;
+	font-weight: bold; 
+}
+
+aside h2 {
+	padding-left: 10px;
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	background-color: darkslategray;
+}
+
+aside h2:hover {
+	color: darkslategray;
+	background-color: white;
+}
+
+#SourceForge_logo {
+	margin-top: 2px;
+	height: 17px ;
+}
+
+.clear { 
+	clear: left; 
+}
+
+.metro-tile-tweet {
+	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
+	background: url("../images/Twitter-tile.png");
+	background-color: #2878EC;
+	border-color: #2878EC;
+	background-repeat:no-repeat;
+}
+
+.metro-tile-facebook {
+	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
+	background: url("../images/facebook-tile.png");
+	background-repeat:no-repeat;
+
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+.metro-tile-linkedin {
+	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
+	background: url("../images/Linkedin-tile.jpg");
+
+	background-color: #4875B4;
+	border-color: #4875B4;
+}
+
+.metro-tile {
+	float: left ;
+	width: 104px;
+	height: 104px;
+	width: 82px;
+	height: 82px;
+	padding: 5px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 12px;
+	border-width: 3px;
+	border-style: solid;
+	cursor: default;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-ms-transition: 0.1s all;
+	transition: 0.1s all;
+	margin-left:5px; 
+	margin-top: 5px;
+}
+
+
+article{
+	padding: 0;
+	margin: 0px;
+	background: white;
+	
+}
+
+/** Footer **/
+footer {
+	padding-left: 20px ;
+	height: 110px;
+	background: white;
+}
+
+footer  h1 {
+	padding: 15px 0px 15px 0px;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: normal;
+	color: black;
+	margin-bottom: 0
+}
+	
+img.float_right {
+    float: right;
+    margin: 5px 0 10px 20px;
+}
+
+img.float_left {
+    float: left;
+    padding-right: 10px ;
+    padding-bottom: 5px ;
+}
+
+hr {
+	 display: block;
+    border: 0;
+    height: 1px;
+    margin: 0px ;
+}
+
+/**End Footer**/
+
+#logo {
+
+}
+
+
