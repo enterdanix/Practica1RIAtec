@@ -242,7 +242,7 @@ aside h2:hover {
 
 /** Articulo**/
 article{
-	padding: 0;
+	padding: 20px 20px 20px 20px;
 	margin: 0px;
 	background: white;
 }
@@ -251,8 +251,8 @@ article{
 
 .col3 {
 	margin:0px 0px;
-	padding-left:0px;
-	width: 340px;
+	padding-left:20px;
+	width: 320px;
 	float:left;
 	margin-left: 10px ;
 	margin-right: 10px ;
@@ -268,28 +268,36 @@ article{
 	color: red;
 }
 
-#articleHeader h1{
+article h1{
 	color: #696969;
 	font-size: 30px;
 	font-weight: normal;
-	margin-top: 40px;
-	padding: 15px 0 0 20px;
+/*	margin-top: 20px;*/
+/*	padding: 15px 15px 15px 15px;*/
 }
-#articleHeader h1 strong{
+article h1 strong{
 	color: #000000;
 	font-weight: bold;
 	font-size: 30px;
-	margin-top: 40px;
-	padding: 15px 0 0 20px;
+}
+
+article h2 {
+
+	font-size: 25px;
+	font-weight: bold;
+/*	margin-top: 20px;*/
+	padding: 15px 0 15px 0;
 }
 
 /** End Article **/
 
 /** Footer **/
 footer {
-	padding-left: 20px ;
+	padding: 30px 20px 20px 20px ;
 	height: 110px;
 	background: white;
+	border-style: solid;
+    border-width: 1px;
 }
 
 footer  h1 {
@@ -321,8 +329,5 @@ hr {
 
 /**End Footer**/
 
-#logo {
-
-}
 
 
