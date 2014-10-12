@@ -253,6 +253,7 @@ article{
 
 article ul.fuera {
     list-style-position: outside;
+    margin-left: 17px;
 }
 article ul.dentro {
     list-style-position: inside;
