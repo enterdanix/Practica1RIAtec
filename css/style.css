@@ -266,6 +266,11 @@ article li{
 	margin-bottom: 7px;
 }
 
+article ul.dentro li{
+	margin-bottom: 0px;
+	margin-top: 4px;
+}
+
 article ul.fuera {
     list-style-position: outside;
     margin-left: 19px;
