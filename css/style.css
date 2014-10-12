@@ -172,11 +172,11 @@ aside h2 {
 	line-height: 25px;
 	font-weight: normal;
 	margin-bottom: 0px;
-	background-color: green;
+	background-color: #4323E6;
 }
 
 aside h2:hover {
-	color: darkgreen;
+	color: #3714E6;
 	background-color: white;
 }
 
