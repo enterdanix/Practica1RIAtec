@@ -160,7 +160,8 @@ div.columnEnd{
 }
 .ul_aside a {
 	text-decoration: none ;
-	color: #C48200 ;
+	/*color: #C48200 ;*/
+	color: #3714E6;
 	font-size: 15px ;
 	font-weight: bold; 
 }
@@ -172,11 +173,12 @@ aside h2 {
 	line-height: 25px;
 	font-weight: normal;
 	margin-bottom: 0px;
-	background-color: #4323E6;
+	/*background-color: #4323E6;*/
+	background-color: green;
 }
 
 aside h2:hover {
-	color: #3714E6;
+	color: darkgreen;
 	background-color: white;
 }
 
