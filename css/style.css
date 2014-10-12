@@ -12,7 +12,7 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary
 }
 
 html {
-	background: #6495ED;
+	background: black;
 
 }
 
@@ -21,43 +21,91 @@ head {
 }
 
 body {
-	margin-top: 25px;
+	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1120px;
 	background: #FFFFFF;
 	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
-	border-style: solid;
-    border-width: 1px;
+
 }
 
 header{
+	height: 125px;
+	width: 1120px;
 	margin: 0px;
 	padding: 0px;
 	background: white;
-	border-style: solid;
-    border-width: 1px;
+
 }
 
+#espacio_blanco{
+	background: black;
+	float : left;
+	width: 20px;
+	height: 80px;
+}
+#nav_logo{
+	float : left;
+	width: 100px;
+	
 
+}
 #logo{
-	float = left;
-	width: 300px;
+	float : left;
+	width: 100px;
+	}
 
+#logo2{	
+	margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#espacio_blanco2{
+	background: black;
+	float : left;
+	width: 1000px;
+	height: 80px;
 }
 nav{
-	float = left;
+	float : right;
 	width: 700px;
-	border-style: solid;
-    border-width: 1px;
+	height: 35px;
+
 }
 
+nav h2 {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: white;
+	line-height: 43px; 
+	font-weight: normal;
+	margin-bottom: 0px;
+	background-color: green;
+	border-style: solid;
+    border-width: 1px;
+	border-color: white;
+}
+
+nav h2:hover {
+	color: darkslategray;
+	background-color: darkgreen;
+}
+
+nav a {
+	color: white;
+}
+
+
 aside{
-  	width: 98%;
-	margin: 0px;
+  	width: 1080px;
+	margin: 10px;
 	padding: 10px;
 	font-size: 16px;
-  	background-color: #BEA7C9;
+  	background-color: #FFA500;
   	-webkit-border-radius: 12px;
   	-moz-border-radius: 12px;
    	border-radius: 12px;
