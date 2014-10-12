@@ -22,6 +22,7 @@ head {
 
 body {
 	margin-top: 15px;
+	margin-bottom: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1120px;
@@ -60,6 +61,7 @@ header{
 	margin-left: auto;
     margin-right: auto;
     width: 40%;
+
 }
 
 #espacio_blanco2{
