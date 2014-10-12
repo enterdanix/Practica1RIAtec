@@ -247,6 +247,14 @@ article{
 	background: white;
 }
 
+article ul.fuera {
+    list-style-position: outside;
+}
+article ul.dentro {
+    list-style-position: inside;
+	list-style-type: circle;
+	padding: 0 0 0 20px;
+}
 /** Column 1/3 width**/
 
 .col3 {
