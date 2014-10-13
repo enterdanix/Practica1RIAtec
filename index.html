@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Practica 1</title>
+    <title>JMetal Web site</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -17,16 +17,24 @@
 			</div>
 				
 			<nav id="menu">
-								
-				<h2><a href="our_techniques.html">OUR TECHNIQUES</a></h2>
-				<h2><a href="resources.html">RESOURCES</a></h2>
-				<h2><a href="problems.html">PROBLEMS</a></h2>
-				<h2><a href="algorithms.html">ALGORITHMS</a></h2>
-				<h2><a href="home.html">HOME</a></h2>
-								
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ALGORITHMS</a></li>
+					<li><a href="">PROBLEMS</a></li>
+					<li><a href="">RESOURCES</a></li>
+					<li><a href="">OUR TECHNIQUES<span>▼</span></a>
+							<ul>
+                                <li><a href="smpso.html">SMPSO</a></li>
+                                <li><a href="abyss.html">AbYSS</a></li>
+                                <li><a href="mocell.html">MOCell</a></li>
+                                <li><a href="mochc.html">MOCHC</a></li>
+								<li><a href="nsgaII.html">NSGA-II variants</a></li>
+                            </ul>
+						</li>
+				</ul>
 			</nav>
 		</header> 
- 		<img id="logo2" src="images/logo2.JPG" id="logo2" />
+ 		<img id="logo2" src="images/logo2.JPG" alt="RIAtec"/>
 
         <hr>
 
@@ -93,7 +101,7 @@
                     <div class="metro-tile metro-tile-tweet">
                         Twitter
                     </div> </a>
-                    <a href="http://www.linkedin.com/groups/jMetal-User-Group-4441726?gid=4441726&trk=hb_side_g">
+                    <a href="http://www.linkedin.com/groups/jMetal-User-Group-4441726?gid=4441726&amp;trk=hb_side_g">
                     <div class="metro-tile metro-tile-linkedin">
                         LinkedIn
                     </div> </a>
@@ -134,7 +142,7 @@
         <article>
             <h1>Welcome to the <strong>jMetal</strong> Web Site</h1>
             
-            <!--Column 1-->
+            <!--Column 1 of the article: Section on left-->
             <section class="col3">
                 <h2>jMetal is ...</h2>
                 <p>
@@ -153,7 +161,7 @@
                     Developing single-objective versions from multi-objective algorithms is usually an easy task, so jMetal contains also single-objective genetic algorithms, evolution strategies, PSO, and DE. An exception is CMA-ES, which currently does not have a multi-objetive counterpart.
                 </p>
             </section>
-            <!--Column 2-->
+            <!--Column 2 of the article: Section on middle-->
             <section class="col3">
                 <h2>Summary of features</h2>
                 <ul class="fuera">
@@ -196,7 +204,7 @@
                 <p> (<span class="red">*</span>: new features)
                 </p>
             </section>
-            <!--Column 3-->
+            <!--Column 3 of the article: Section on the right-->
             <section class= "col3">
                 <h2>Documentation</h2>
                 <ul class="fuera">
@@ -214,19 +222,18 @@
                         J.J. Durillo, A.J. Nebro <a href="http://www.sciencedirect.com/science/article/pii/S0965997811001219"> jMetal: a Java Framework for Multi-Objective Optimization.</a> Advances in Engineering Software 42 (2011) 760-771.
                         <ul class="dentro">
                             <li>
-                                <a href="http://scholar.google.es/scholar?oi=bibs&hl=es&cites=8294467800448040809">Cites</a> (Google Scholar)
+                                <a href="http://scholar.google.es/scholar?oi=bibs&amp;hl=es&amp;cites=8294467800448040809">Cites</a> (Google Scholar)
                             </li>
                             <li>
                                 <a href= "./resources/DN2011.bib">BIBTEX</a>
                             </li>
                         </ul>
                     </li>
-                    <br/>
                     <li>
                         J.J. Durillo, A.J. Nebro, E. Alba. <a href="http://www.sciencedirect.com/science/article/pii/S0965997811001219"> The jMetal Framework for Multi-Objective Optimization: Design and Architecture.</a> CEC 2010, pp: 4138-4325. July 2010.
                         <ul class="dentro">
                             <li>
-                                <a href="http://scholar.google.es/scholar?oi=bibs&hl=es&cites=12235689288108740075">Cites</a> (Google Scholar)
+                                <a href="http://scholar.google.es/scholar?oi=bibs&amp;hl=es&amp;cites=12235689288108740075">Cites</a> (Google Scholar)
                             </li>
                             <li>
                                 <a href="./resources/CEC2010.bib">BIBTEX</a>
@@ -237,6 +244,8 @@
             </section>
             <div class="clear"></div>
         </article>
+
+        <!--End article-->
         
         <hr>
 
