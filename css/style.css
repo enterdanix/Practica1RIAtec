@@ -16,9 +16,6 @@ html {
 
 }
 
-head {
-
-}
 
 body {
 	margin-top: 15px;
@@ -310,7 +307,7 @@ aside h2:hover {
 
 
 
-/** Articulo**/
+/** Article**/
 article{
 	padding: 20px 20px 20px 20px;
 	margin: 0px;
@@ -429,7 +426,7 @@ img.float_left:hover {
 }
 
 hr {
-	 display: block;
+	display: block;
     border: 0;
     height: 1px;
     margin: 0px ;
