@@ -164,7 +164,7 @@ nav  ul li ul li ul {
 
 
 
-
+/* Formato general del aside: colores elegidos siguiendo el patrón del logo jMetal aproximadamente (fondo de tonalidad amarilla). Se ha respetado el diseño de la web original con esquinas redondeadas */
 aside{
   	width: 1080px;
 	margin: 10px;
@@ -176,41 +176,40 @@ aside{
    	border-radius: 12px;
 }
 
+/* Elemento flotante div correspondiente a la columna izquierda. Sirve de contenedor para las secciones que van en dicha columna */
 aside div.left_column{
 	float: left;
 	width: 450px;
-/*	padding-left: 50;
-	padding-right: 0;*/
 	margin-left: 80px;
-	/*border: solid;*/
 }
 
+/* Elemento dual al anterior, pero para la columna derecha */
 aside div.right_column{
 	float: right;
 	width: 450px;
-	/*border: solid;*/
-/*	padding-right: 50;
-	padding-left: 0;*/
 	margin-right: 80px;
 }
 
+/* Formato de las secciones que van en la columna izquierda */
 aside section.left_column {
 	margin:10px 10px; 
 	padding-left: 100px;
 	padding-right: 10px;
 }
 
+/* Formato de las secciones que van en la columna derecha */
 aside section.right_column {
 	margin:10px 10px; 
 	padding-left: 10px;
 	padding-right: 100px;
 }
 
+/* Elemento div utilizado para eliminar el efecto de elementos flotantes y su interacción con los elementos subsiguientes */
 div.columnEnd{
 	clear: both;
 }
 
-
+/* Formato para elementos y enlaces web en lista no ordenada  (para ser utilizados dentro de la sección "aside"). Colores elegidos siguiendo el patrón del logo jMetal aproximadamente (enlaces en un tono azúl) */
 .ul_aside {
 	padding-left: 10px ;
 }
@@ -223,12 +222,12 @@ div.columnEnd{
 }
 .ul_aside a {
 	text-decoration: none ;
-	/*color: #C48200 ;*/
 	color: #3714E6;
 	font-size: 15px ;
 	font-weight: bold; 
 }
 
+/* Formato de headings de nivel 2 en la sección "aside". Colores elegidos siguiendo el patrón del logo jMetal aproximadamente (fondo de tonalidad verde) */
 aside h2 {
 	padding-left: 10px;
 	font-size: 18px;
@@ -236,45 +235,22 @@ aside h2 {
 	line-height: 25px;
 	font-weight: normal;
 	margin-bottom: 0px;
-	/*background-color: #4323E6;*/
 	background-color: green;
 }
 
+/* Formato para crear efecto de iluminación de heading al colocar el ratón sobre el heading en cuestión */
 aside h2:hover {
 	color: darkgreen;
 	background-color: white;
 }
 
+/* Format del logo de Sourceforge */
 #SourceForge_logo {
 	margin-top: 2px;
 	height: 17px ;
 }
 
-.metro-tile-tweet {
-	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
-	background: url("../images/Twitter-tile.png");
-	background-color: #2878EC;
-	border-color: #2878EC;
-	background-repeat:no-repeat;
-}
-
-.metro-tile-facebook {
-	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
-	background: url("../images/facebook-tile.png");
-	background-repeat:no-repeat;
-
-	background-color: #3B5998;
-	border-color: #3B5998;
-}
-
-.metro-tile-linkedin {
-	/*background: url(https://cssbox.googlecode.com/svn/demo/Windows8MetroTiles/img/Facebook.png);*/
-	background: url("../images/Linkedin-tile.jpg");
-
-	background-color: #4875B4;
-	border-color: #4875B4;
-}
-
+/* Formato general de los iconos-enlaces para redes sociales */
 .metro-tile {
 	float: left ;
 	width: 104px;
@@ -296,6 +272,7 @@ aside h2:hover {
 	margin-top: 5px;
 }
 
+/* Efecto de resaltado al colocar el ratón sobre los iconos de redes sociales (se reduce el tamaño de los iconos ligeramente) */
 .metro-tile:hover {
 	-webkit-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
 	-moz-transform: scale(0.97) perspective(400px) rotateY(0deg) rotateX(0deg);
@@ -305,7 +282,23 @@ aside h2:hover {
 	border-style:solid; 
 }
 
+/* Carga en concreto de las plantillas de cada icono, ajustando los colores de forma acorde al logo de cada red social*/
+.metro-tile-tweet {
+	background: url("../images/Twitter-tile.png");
+	background-color: #2878EC;
+	border-color: #2878EC;	
+}
 
+.metro-tile-facebook {
+	background: url("../images/facebook-tile.png");
+	background-color: #3B5998;
+	border-color: #3B5998;
+}
+
+.metro-tile-linkedin {
+	background: url("../images/Linkedin-tile.jpg");
+	border-color: #4875B4;
+}
 
 /** Article**/
 article{
