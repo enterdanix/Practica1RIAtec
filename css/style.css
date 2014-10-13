@@ -354,7 +354,7 @@ article ul.dentro {
 	float:left;
 	margin-left: 10px ;
 	margin-right: 10px ;
-	background-color: #FFFFFF ;
+	background-color: transparent;
 	/* width: calc(100%/3 - 25px );*/
 }	
 
