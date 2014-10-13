@@ -418,7 +418,14 @@ img.float_right {
 img.float_left {
     float: left;
     padding-right: 10px ;
+    transition: transform .25s ease;
     padding-bottom: 5px ;
+}
+
+img.float_left:hover {
+    float: left;
+    padding-right: 10px ;
+    transform: scale(1.70) ;
 }
 
 hr {
