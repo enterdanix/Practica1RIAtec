@@ -264,10 +264,11 @@ aside h2:hover {
 article{
 	padding: 20px 20px 20px 20px;
 	margin: 0px;
-	background: white;
+	background: transparent;
 	text-align: justify;
 	font-size: 14px;
 }
+
 
 article h1{
 	margin-top: 30px;
@@ -282,16 +283,19 @@ article li{
 	margin-bottom: 7px;
 }
 
+/*Texto con sangrado mas grande, para los subapartados*/
 article ul.dentro li{
 	margin-bottom: 0px;
 	margin-top: 4px;
 }
 
+/*Textor con menos sangrado, apartados importantes*/
 article ul.fuera {
     list-style-position: outside;
     margin-left: 19px;
 }
 
+/*Subapartados*/
 article ul.dentro {
 	list-style-type: circle;
 	padding: 0 0 0 20px;
@@ -354,12 +358,14 @@ footer  h1 {
 	color: black;
 	margin-bottom: 0
 }
-	
+
+/*Imagenes del footer alineadas a la derecha*/	
 img.float_right {
     float: right;
     margin: -8px 0 10px 20px;
 }
 
+/*Imagenes del footer alineadas a la izq con efecto*/
 img.float_left {
     float: left;
     padding-right: 10px ;
@@ -369,6 +375,7 @@ img.float_left {
     padding-left: 10px;
 }
 
+/*Efecto imagenes alineadas a la izq cuando el cursor esta sobre ellas*/
 img.float_left:hover {
     float: left;
     padding-right: 10px ;
