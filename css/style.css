@@ -13,9 +13,7 @@ details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary
 
 html {
 	background: black;
-
 }
-
 
 body {
 	margin-top: 15px;
@@ -25,7 +23,6 @@ body {
 	width: 1120px;
 	background: #FFFFFF;
 	font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
-
 }
 
 header{
@@ -34,7 +31,6 @@ header{
 	margin: 0px;
 	padding: 0px;
 	background: white;
-
 }
 
 #espacio_blanco{
@@ -43,22 +39,21 @@ header{
 	width: 20px;
 	height: 80px;
 }
+
 #nav_logo{
 	float : left;
 	width: 100px;
-	
-
 }
+
 #logo{
 	float : left;
 	width: 100px;
-	}
+}
 
 #logo2{	
 	margin-left: auto;
     margin-right: auto;
     width: 40%;
-
 }
 
 #espacio_blanco2{
@@ -67,41 +62,15 @@ header{
 	width: 1000px;
 	height: 80px;
 }
+
 nav{
 	float : right;
 	width: 585px;
 	height: 35px;
 }
-/* nav h2 {
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 15px;
-	color: white;
-	line-height: 43px; 
-	font-weight: normal;
-	margin-bottom: 0px;
-	background-color: green;
-	border-style: solid;
-    border-width: 1px;
-	border-color: white;
-}*/
-/* nav h2:hover {
-	color: darkslategray;
-	background-color: darkgreen;
-} */
-/* nav a {
-	color: white;
-} */
 
-/*Pruebas del NAV */
-/*nav > ul {
-	float:right;
-}*/
 nav ul {
 	list-style: none;
-	
-
 }
 
 nav li {
@@ -154,15 +123,6 @@ nav  ul li ul li {
 	min-width:173px;
 	width:173px;
 }
-
-   /*         
-nav  ul li ul li ul {
-	right:-140px;
-	top:0px;
-}*/
-/*FIN Pruebas del NAV */
-
-
 
 /* Formato general del aside: colores elegidos siguiendo el patrón del logo jMetal aproximadamente (fondo de tonalidad amarilla). Se ha respetado el diseño de la web original con esquinas redondeadas */
 aside{
@@ -300,7 +260,7 @@ aside h2:hover {
 	border-color: #4875B4;
 }
 
-/** Article**/
+/** Articulo*/
 article{
 	padding: 20px 20px 20px 20px;
 	margin: 0px;
@@ -331,15 +291,15 @@ article ul.fuera {
     list-style-position: outside;
     margin-left: 19px;
 }
+
 article ul.dentro {
-    /*list-style-position: inside;*/
 	list-style-type: circle;
 	padding: 0 0 0 20px;
 	margin-left: 10px;
 	margin-right: 20px;
 }
-/** Column 1/3 width**/
 
+/*Distribucion en tres columnas iguales*/
 .col3 {
 	margin:0px 0px;
 	padding-left:20px;
@@ -348,7 +308,6 @@ article ul.dentro {
 	margin-left: 10px ;
 	margin-right: 10px ;
 	background-color: #FFFFFF ;
-	/* width: calc(100%/3 - 25px );*/
 }	
 
 .clear {
@@ -363,9 +322,8 @@ article h1{
 	color: #696969;
 	font-size: 30px;
 	font-weight: normal;
-/*	margin-top: 20px;*/
-/*	padding: 15px 15px 15px 15px;*/
 }
+
 article h1 strong{
 	color: #000000;
 	font-weight: bold;
@@ -376,11 +334,8 @@ article h2 {
 
 	font-size: 25px;
 	font-weight: bold;
-/*	margin-top: 20px;*/
 	padding: 15px 0 15px 0;
 }
-
-/** End Article **/
 
 /** Footer **/
 footer {
@@ -426,8 +381,5 @@ hr {
     height: 1px;
     margin: 0px ;
 }
-
-/**End Footer**/
-
 
 
