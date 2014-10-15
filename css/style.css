@@ -72,36 +72,10 @@ nav{
 	width: 585px;
 	height: 35px;
 }
-/* nav h2 {
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 15px;
-	color: white;
-	line-height: 43px; 
-	font-weight: normal;
-	margin-bottom: 0px;
-	background-color: green;
-	border-style: solid;
-    border-width: 1px;
-	border-color: white;
-}*/
-/* nav h2:hover {
-	color: darkslategray;
-	background-color: darkgreen;
-} */
-/* nav a {
-	color: white;
-} */
 
-/*Pruebas del NAV */
-/*nav > ul {
-	float:right;
-}*/
 nav ul {
 	list-style: none;
 	
-
 }
 
 nav li {
@@ -155,16 +129,6 @@ nav  ul li ul li {
 	width:173px;
 }
 
-   /*         
-nav  ul li ul li ul {
-	right:-140px;
-	top:0px;
-}*/
-/*FIN Pruebas del NAV */
-
-
-
-
 aside{
   	width: 1080px;
 	margin: 10px;
@@ -174,36 +138,6 @@ aside{
   	-webkit-border-radius: 12px;
   	-moz-border-radius: 12px;
    	border-radius: 12px;
-}
-
-aside div.left_column{
-	float: left;
-	width: 450px;
-/*	padding-left: 50;
-	padding-right: 0;*/
-	margin-left: 80px;
-	/*border: solid;*/
-}
-
-aside div.right_column{
-	float: right;
-	width: 450px;
-	/*border: solid;*/
-/*	padding-right: 50;
-	padding-left: 0;*/
-	margin-right: 80px;
-}
-
-aside section.left_column {
-	margin:10px 10px; 
-	padding-left: 100px;
-	padding-right: 10px;
-}
-
-aside section.right_column {
-	margin:10px 10px; 
-	padding-left: 10px;
-	padding-right: 100px;
 }
 
 div.columnEnd{
