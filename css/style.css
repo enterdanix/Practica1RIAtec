@@ -350,14 +350,7 @@ footer {
     border-width: 1px;
 }
 
-footer  h1 {
-	padding: 15px 0px 15px 0px;
-	font-size: 25px;
-	line-height: 30px;
-	font-weight: normal;
-	color: black;
-	margin-bottom: 0
-}
+
 
 /*Imagenes del footer alineadas a la derecha*/	
 img.float_right {
